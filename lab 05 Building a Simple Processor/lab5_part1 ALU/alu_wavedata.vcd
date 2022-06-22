@@ -1,0 +1,107 @@
+$date
+	Wed Mar 09 10:55:37 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 8 ! result [7:0] $end
+$var reg 1 " CLK $end
+$var reg 8 # data1 [7:0] $end
+$var reg 8 $ data2 [7:0] $end
+$var reg 3 % select [2:0] $end
+$scope module alu1 $end
+$var wire 8 & DATA1 [7:0] $end
+$var wire 8 ' DATA2 [7:0] $end
+$var wire 3 ( SELECT [2:0] $end
+$var wire 8 ) Ror [7:0] $end
+$var wire 8 * Rfor [7:0] $end
+$var wire 8 + Rand [7:0] $end
+$var wire 8 , Radd [7:0] $end
+$var reg 8 - RESULT [7:0] $end
+$scope module mod0 $end
+$var wire 8 . DATA2 [7:0] $end
+$var reg 8 / RESULT [7:0] $end
+$upscope $end
+$scope module mod1 $end
+$var wire 8 0 DATA1 [7:0] $end
+$var wire 8 1 DATA2 [7:0] $end
+$var reg 8 2 RESULT [7:0] $end
+$upscope $end
+$scope module mod2 $end
+$var wire 8 3 DATA1 [7:0] $end
+$var wire 8 4 DATA2 [7:0] $end
+$var reg 8 5 RESULT [7:0] $end
+$upscope $end
+$scope module mod3 $end
+$var wire 8 6 DATA1 [7:0] $end
+$var wire 8 7 DATA2 [7:0] $end
+$var reg 8 8 RESULT [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 8
+b10111011 7
+b10010001 6
+bx 5
+b10111011 4
+b10010001 3
+bx 2
+b10111011 1
+b10010001 0
+bx /
+b10111011 .
+bx -
+bx ,
+bx +
+bx *
+bx )
+b0 (
+b10111011 '
+b10010001 &
+b0 %
+b10111011 $
+b10010001 #
+1"
+bx !
+$end
+#1
+b10111011 !
+b10111011 -
+b10111011 *
+b10111011 /
+b10111011 )
+b10111011 8
+b10010001 +
+b10010001 5
+0"
+#2
+b1001100 !
+b1001100 -
+1"
+b1001100 ,
+b1001100 2
+b1 %
+b1 (
+#3
+b10010001 !
+b10010001 -
+0"
+b10 %
+b10 (
+#4
+b10111011 !
+b10111011 -
+1"
+b11 %
+b11 (
+#5
+0"
+#6
+1"
