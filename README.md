@@ -17,3 +17,6 @@ This will run the binary file and give outputs
 ## Run the GTKwaveData if it is created
 
 `gtkwave GTKwaveFileName.vcd`
+
+The GTKWave will open automatically
+Then you can select components that want to show from the left tab
