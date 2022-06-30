@@ -14,7 +14,7 @@ Then it will create a binary file
 
 This will run the binary file and give outputs
 
-## Run the GTKwaveData if it is created
+## Run the GTKwaveData (if avalable)
 
 `gtkwave GTKwaveFileName.vcd`
 
